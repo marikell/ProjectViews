@@ -1,0 +1,122 @@
+/*html {
+  height: 100%;
+  background: linear-gradient(45deg, #00ff4e, #24dfaf, #24bcdf, #a424df, #df245c, #ff9c00, #00ff4e, #24dfaf, #24bcdf, #a424df, #df245c, #ff9c00);
+  background-size: 1800% 1800%;
+  animation: anim-bg-grad 20s ease infinite;
+}
+
+@keyframes anim-bg-grad {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 51%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}*/
+
+
+// html {
+//   height: 100%;
+//   background: radial-gradient(circle, #24dfaf, #24bcdf, #a424df, #df245c);
+//   background-size: 3000% 3000%;
+//   animation: anim-bg-grad 30s ease infinite;
+// }
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Playfair+Display');
+
+/* -----------------------------------------------------------------------------
+  ROTATING BACKGROUND
+------------------------------------------------------------------------------*/
+.flex-container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1;
+}
+
+@keyframes rotating-background {
+    from {
+        transform: rotate(-180deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+.background-color {
+    animation-name: rotating-background;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background: repeating-linear-gradient( 45deg, #CF3721, #CF3721 50px, #31A9B8 50px, #31A9B8 100px);
+    height: 1900px;
+    width: 1900px;
+    position: absolute;
+    transform: rotate(-180deg);
+}
+
+
+/* -----------------------------------------------------------------------------
+  BODY, CONTENT AND TYPOGRAPHY
+------------------------------------------------------------------------------*/
+
+body {
+    align-content: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.content {
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.7rem;
+    margin: 0;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+p {
+    line-height: 1.2;
+    margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        margin: 0 auto 4rem;
+        width: 40rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+}
