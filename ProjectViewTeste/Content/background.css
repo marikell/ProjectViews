@@ -56,7 +56,7 @@
     animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    background: repeating-linear-gradient( 45deg, #CF3721, #CF3721 50px, #31A9B8 50px, #31A9B8 100px);
+    background: repeating-linear-gradient( 45deg, #CF3721, #CF3721 33px, #31A9B8 50px, #31A9B8 33px, #F5BE41 33px, #F5BE41 33px);
     height: 1900px;
     width: 1900px;
     position: absolute;
