@@ -37,8 +37,12 @@ blurred {
         width: 100%;
     }
 
+firstext {
+
+}
+
 .username {
-    background-color: darkblue;
+    background-color: #3366ff;
 }
 
     .username::after {
@@ -55,7 +59,7 @@ blurred {
     }
 
 .password {
-    background-color:crimson;
+    background-color: #e6005c;
 }
 
     .password::after {

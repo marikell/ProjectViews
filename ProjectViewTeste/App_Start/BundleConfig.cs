@@ -26,8 +26,7 @@ namespace ProjectViewTeste
             bundles.Add(new ScriptBundle("~/Content/js").Include("~/Content/login.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css", "~/Content/login.css", "~/Content/material.min.css"));
+                      "~/Content/bootstrap.css", "~/Content/login.css", "~/Content/material.min.css"));
         }
     }
 }
