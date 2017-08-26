@@ -18,6 +18,33 @@ blurred {
     -ms-filter: blur(5px);
     filter: blur(5px);
 }
+.animate {
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+.action-button {
+    position: relative;
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 10px;
+    font-family: "Bebas Neue", Arial;
+    font-size: 25px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.custombutton {
+    font-size:2em;
+}
+
+
+.action-button:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
 
 .form {
     height: 18.75em;
@@ -124,6 +151,23 @@ select {
         left: 50%;
         margin-left: -0.496em;
     }
+
+.voltar {
+    background-color: chartreuse;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.cadastrarbutton {
+    background-color: gold;
+    font-size: 1.5em;
+    color: white;
+    font-family: "Bebas Neue", Arial;
+    text-align: center;
+    background: transparent;
+    
+}
 
 .login {
     background-color: gold;
