@@ -88,6 +88,19 @@ firstext {
         cursor: pointer;
     }
 
+.cadastra {
+    background-color: chartreuse;
+    display: table;
+}
+
+    .cadastra span {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 3em;
+        cursor: pointer;
+    }
+
 input {
     height: 1.25em;
     width: 8.125em;
