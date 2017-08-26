@@ -1,20 +1,8 @@
-
-$('#input').focusin(function(){
-    addClassLabel();
-});
-$('#input').focusout(function(){
-    removeClassLabel();
-});
-
-
-function addClassLabel() {
-
-    var label = document.getElementById("label");
-    label.addClass("up")
-
-};
-
-function removeClassLabel() {
-    var label = document.getElementById("label");
-    label.removeClass("up")
-};
+$(document).ready(function () {
+    $("#pass").focus(function () {
+        $(".login-card").css("margin-top", "-45px");
+    });
+    $("input").blur(function () {
+        $(".login-card").css("margin-top", "0px");
+    });
+});     
