@@ -105,7 +105,7 @@ select {
 }
 
 .username {
-    background-color: #3366ff;
+    background-color: #66cccc;
 }
 
     .username::after {
@@ -134,7 +134,7 @@ select {
     font-family: "Bebas Neue", Arial;
 }
 .password {
-    background-color: #e6005c;
+    background-color: #ff3399;
 }
 
     .password::after {
@@ -168,7 +168,7 @@ select {
 }
 
 .login {
-    background-color: #ffce1c;
+    background-color: #4cff4c;
     display: table;
 }
 
