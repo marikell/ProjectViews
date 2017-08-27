@@ -26,5 +26,10 @@ namespace ProjectViewTeste.Controllers
 
             return View();
         }
+
+        public ActionResult Cadastro()
+        {
+            return View();
+        }
     }
 }

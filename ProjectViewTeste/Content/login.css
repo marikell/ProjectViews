@@ -27,8 +27,6 @@ blurred {
     position: relative;
     padding: 10px 40px;
     margin: 0px 10px 10px 0px;
-    float: left;
-    border-radius: 10px;
     font-family: "Bebas Neue", Arial;
     font-size: 25px;
     color: #FFF;
@@ -170,7 +168,7 @@ select {
 }
 
 .login {
-    background-color: gold;
+    background-color: #ffce1c;
     display: table;
 }
 
@@ -183,7 +181,7 @@ select {
     }
 
 .cadastra {
-    background-color: chartreuse;
+    background-color: #00cc00;
     display: table;
 }
 
